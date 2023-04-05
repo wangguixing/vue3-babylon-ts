@@ -1,4 +1,4 @@
-# vue-babylon-tsx(记录[three.js](https://www.babylonjs.com/))
+# vue-babylon-tsx(记录[babylon.js](https://www.babylonjs.com/))
 
 ## 必要性与应用方向
 - 企业对web3D可视化技术需求越来越多
