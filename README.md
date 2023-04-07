@@ -15,7 +15,9 @@
 - [babylon](https://www.babylonjs.com/) --微软Babylon.js 5.0 支持WebGPU
 - cesium -- 地理数据gis
 
-## 依赖库安装
+选择babylon，精彩实现站点参考[cool360数字展馆](http://www.cool360.com/)
+
+## 依赖库选择与安装
 - babylonjs
     ```
     yarn add babylonjs
