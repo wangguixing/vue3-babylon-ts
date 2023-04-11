@@ -279,6 +279,40 @@
   resolved "https://registry.npmmirror.com/@babylonjs/core/-/core-5.54.0.tgz#9328201e583d7b444da9249861021bd78a64e752"
   integrity sha512-PqGcVI4hmW4F07kwDUUGFfkvFMaWzN+1sweKAFXz9pQsku6dEZ/BbGJYOvwzlNYlYQP2IZffvLmUY5mAb+dwCA==
 
+"@babylonjs/gui-editor@^5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/gui-editor/-/gui-editor-5.54.0.tgz#44e2d638ebbf99be2240c8b47f68309bf9fa4098"
+  integrity sha512-XjhgA1sulIz6LnzLnf6+DKhXI1QHTeNB2q6qw70bKhBHHtlohHJfqFta2fYb+xda7vt5FTNUoPm45WwFfFBBbg==
+
+"@babylonjs/gui@^5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/gui/-/gui-5.54.0.tgz#fcaa0990a9cd070e8f8645e7bea236c32d4d6d8c"
+  integrity sha512-3wtW5d3tuNHyntm3GtCVX1umfZDV1SI+hjPLCs5ucDdV5waQyGm/w8b8rwYSe9qVvfecJ3i5pOJKA51r23uLBw==
+
+"@babylonjs/inspector@^5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/inspector/-/inspector-5.54.0.tgz#0379614aa459936f5e2299c738bdbd9f1607e0be"
+  integrity sha512-1++BCxmuC265YM+3XG/MURWIU57MKe3n7+rb5nMkKN+DZMoAKADhced/ceUOrBdRRYzFKjy68VXlksiTuaCWQg==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^6.1.0"
+    "@fortawesome/free-regular-svg-icons" "^6.0.0"
+    "@fortawesome/free-solid-svg-icons" "^6.0.0"
+
+"@babylonjs/loaders@^5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/loaders/-/loaders-5.54.0.tgz#13427b91e1bd4bf84afc6cf94f631339197f1ccb"
+  integrity sha512-cAlzbbnB3w7zuatfqfHsQXuXkZHpUVqAa7ipeH5QyxW32xEjRbB0CjiATZSsqwoATUj3Y9QsR5mMYP4XAogK6A==
+
+"@babylonjs/materials@^5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/materials/-/materials-5.54.0.tgz#b1dcfe3146f40e79ad719707a44ffcaf101964cd"
+  integrity sha512-i/g5H9EfMP/92jxBFzpAambRk8JN2aV63sUvKkRfjFPuG37ffuuNUl42Z7OJv2MHXABSvNbdrTh3oYWUa+sXzg==
+
+"@babylonjs/serializers@^5.54.0":
+  version "5.54.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/serializers/-/serializers-5.54.0.tgz#c279c99617b2290ac1eea784d8b8e32e035173a5"
+  integrity sha512-ZqF+I1w3WUWati7opyjoFXEJcxGwcsnbCsOhpXQ6e0Ei/4V2mMxzzU2ZIo9DghqidJ5AzqZp+e3E2CNcnXIOAA==
+
 "@esbuild/android-arm64@0.17.15":
   version "0.17.15"
   resolved "https://registry.npmmirror.com/@esbuild/android-arm64/-/android-arm64-0.17.15.tgz#893ad71f3920ccb919e1757c387756a9bca2ef42"
@@ -420,6 +454,32 @@
   version "8.37.0"
   resolved "https://registry.npmmirror.com/@eslint/js/-/js-8.37.0.tgz#cf1b5fa24217fe007f6487a26d765274925efa7d"
   integrity sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A==
+
+"@fortawesome/fontawesome-common-types@6.4.0":
+  version "6.4.0"
+  resolved "https://registry.npmmirror.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.4.0.tgz#88da2b70d6ca18aaa6ed3687832e11f39e80624b"
+  integrity sha512-HNii132xfomg5QVZw0HwXXpN22s7VBHQBv9CeOu9tfJnhsWQNd2lmTNi8CSrnw5B+5YOmzu1UoPAyxaXsJ6RgQ==
+
+"@fortawesome/fontawesome-svg-core@^6.1.0":
+  version "6.4.0"
+  resolved "https://registry.npmmirror.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.4.0.tgz#3727552eff9179506e9203d72feb5b1063c11a21"
+  integrity sha512-Bertv8xOiVELz5raB2FlXDPKt+m94MQ3JgDfsVbrqNpLU9+UE2E18GKjLKw+d3XbeYPqg1pzyQKGsrzbw+pPaw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/free-regular-svg-icons@^6.0.0":
+  version "6.4.0"
+  resolved "https://registry.npmmirror.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.4.0.tgz#cacc53bd8d832d46feead412d9ea9ce80a55e13a"
+  integrity sha512-ZfycI7D0KWPZtf7wtMFnQxs8qjBXArRzczABuMQqecA/nXohquJ5J/RCR77PmY5qGWkxAZDxpnUFVXKwtY/jPw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/free-solid-svg-icons@^6.0.0":
+  version "6.4.0"
+  resolved "https://registry.npmmirror.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.4.0.tgz#48c0e790847fa56299e2f26b82b39663b8ad7119"
+  integrity sha512-kutPeRGWm8V5dltFP1zGjQOEAzaLZj4StdQhWVZnfGFCvAPVvHh8qk5bRrU4KXnRRRNni5tKQI9PBAdI6MP8nQ==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"

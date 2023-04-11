@@ -1,0 +1,55 @@
+@import './base.css';
+@import './reset.css';
+#app {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+
+  font-weight: normal;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+}
+#scene-explorer-host,
+#inspector-host {
+  height: calc(100vh - 48px);
+  width: 300px;
+}
+* {
+  scrollbar-color: rgba(144, 147, 153, 0.3) transparent; /* 滑块颜色  滚动条背景颜色 */
+  scrollbar-width: thin; /* 滚动条宽度有三种：thin、auto、none */
+}
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+*::-webkit-scrollbar-button {
+  display: none;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(144, 147, 153, 0.3);
+  cursor: pointer;
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-corner {
+  display: none;
+}
+*::-webkit-resizer {
+  display: none;
+}

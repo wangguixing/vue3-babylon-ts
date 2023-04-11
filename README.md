@@ -18,8 +18,13 @@
 选择babylon，精彩实现站点参考[cool360数字展馆](http://www.cool360.com/)
 
 ## 依赖库选择与安装
-- babylonjs
     ```
-    yarn add babylonjs
+    yarn add @babylonjs/core  -D
+    yarn add @babylonjs/inspector  -D
+    yarn add @babylonjs/loaders  -D
+    yarn add @babylonjs/gui -D
+    yarn add @babylonjs/materials -D
+    yarn add @babylonjs/gui-editor -D
+    yarn add @babylonjs/serializers -D
     ```
-**...todo...**
+
