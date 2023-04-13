@@ -27,4 +27,14 @@
     yarn add @babylonjs/gui-editor -D
     yarn add @babylonjs/serializers -D
     ```
+## 概念术语解读
 
+- Engine：用来关联canvas与babylon
+- Scene：基于Engine创建场景
+- camera: 场景中呈现的视角
+- light：点亮场景，HemisphericLight球形光
+- MeshBuilder: 框架用来勾勒模型形状
+- Material: 材质用料粉饰模型
+- Texure: 纹理 在Material基础上画画
+- Vector: 向量坐标系
+- color: 着色

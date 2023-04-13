@@ -44,8 +44,9 @@ function createScene(this: any, canvas: HTMLCanvasElement) {
   /*****************模型*************************/
   //模型创建
   const box = MeshBuilder.CreateBox('box', { size: 1 }, scene)
-
+  // 材质
   const material = new StandardMaterial('box-material', scene)
+  // 添加颜色
   material.diffuseColor = Color3.Blue()
   box.material = material
 
