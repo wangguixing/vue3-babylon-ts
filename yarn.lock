@@ -274,44 +274,44 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@babylonjs/core@^5.54.0":
-  version "5.54.0"
-  resolved "https://registry.npmmirror.com/@babylonjs/core/-/core-5.54.0.tgz#9328201e583d7b444da9249861021bd78a64e752"
-  integrity sha512-PqGcVI4hmW4F07kwDUUGFfkvFMaWzN+1sweKAFXz9pQsku6dEZ/BbGJYOvwzlNYlYQP2IZffvLmUY5mAb+dwCA==
+"@babylonjs/core@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/core/-/core-6.9.0.tgz#b610aa40c2b70d6bbbba49543b06c62eeaefb793"
+  integrity sha512-hd+sejnpeEFAHAqSFiGjk6l7MFwr//QMsAnCCHtBM+Ct91rrqRufXM1tUjHdIjk3aH7DTAxJ28CjBJFhBjiBGw==
 
-"@babylonjs/gui-editor@^5.54.0":
-  version "5.54.0"
-  resolved "https://registry.npmmirror.com/@babylonjs/gui-editor/-/gui-editor-5.54.0.tgz#44e2d638ebbf99be2240c8b47f68309bf9fa4098"
-  integrity sha512-XjhgA1sulIz6LnzLnf6+DKhXI1QHTeNB2q6qw70bKhBHHtlohHJfqFta2fYb+xda7vt5FTNUoPm45WwFfFBBbg==
+"@babylonjs/gui-editor@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/gui-editor/-/gui-editor-6.9.0.tgz#1ce2d7a64b9a0e3ec346679da0dc9704ba51f94e"
+  integrity sha512-E3jZcqv4vw/K7v5leh8BJvNT9cgI4REHavCI25MC/oPa0K9zCVTBkFD6pjbnEt0e20UOv6ZgNgtmG1cSybm/9Q==
 
-"@babylonjs/gui@^5.54.0":
-  version "5.54.0"
-  resolved "https://registry.npmmirror.com/@babylonjs/gui/-/gui-5.54.0.tgz#fcaa0990a9cd070e8f8645e7bea236c32d4d6d8c"
-  integrity sha512-3wtW5d3tuNHyntm3GtCVX1umfZDV1SI+hjPLCs5ucDdV5waQyGm/w8b8rwYSe9qVvfecJ3i5pOJKA51r23uLBw==
+"@babylonjs/gui@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/gui/-/gui-6.9.0.tgz#4136fc10f9fee2f568d99a2e931968851b813c7d"
+  integrity sha512-RcVorxsj6n2EbwkBJYPBqF88Rybd3OHbx55runbMSehb9rKhc6d2QIiXTi7yI2oBNyuQBsDxx+ky58Rur2UXww==
 
-"@babylonjs/inspector@^5.54.0":
-  version "5.54.0"
-  resolved "https://registry.npmmirror.com/@babylonjs/inspector/-/inspector-5.54.0.tgz#0379614aa459936f5e2299c738bdbd9f1607e0be"
-  integrity sha512-1++BCxmuC265YM+3XG/MURWIU57MKe3n7+rb5nMkKN+DZMoAKADhced/ceUOrBdRRYzFKjy68VXlksiTuaCWQg==
+"@babylonjs/inspector@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/inspector/-/inspector-6.9.0.tgz#d07b1c8b6228f0d884e5b330b3dede0bec8978d2"
+  integrity sha512-QYvEjy9LMAXUdXpfZP70iqcvfmJKASRPaOyrAvHV0pG4y6HZiMHhwPPivhVWmQ1hCPiwkJcd48VMzPeJ96Vs9Q==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^6.1.0"
     "@fortawesome/free-regular-svg-icons" "^6.0.0"
     "@fortawesome/free-solid-svg-icons" "^6.0.0"
 
-"@babylonjs/loaders@^5.54.0":
-  version "5.54.0"
-  resolved "https://registry.npmmirror.com/@babylonjs/loaders/-/loaders-5.54.0.tgz#13427b91e1bd4bf84afc6cf94f631339197f1ccb"
-  integrity sha512-cAlzbbnB3w7zuatfqfHsQXuXkZHpUVqAa7ipeH5QyxW32xEjRbB0CjiATZSsqwoATUj3Y9QsR5mMYP4XAogK6A==
+"@babylonjs/loaders@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/loaders/-/loaders-6.9.0.tgz#22d5bcd036af00a8abf7d2ead216b01e889a5000"
+  integrity sha512-m8EeAhdY3LZiTUUbRDyilSK5puTXKeyH0PQt1QUJZmADK4vUQTlJrzolimat9TX5m+kuS6uPF26SEnl7HvfXJA==
 
-"@babylonjs/materials@^5.54.0":
-  version "5.54.0"
-  resolved "https://registry.npmmirror.com/@babylonjs/materials/-/materials-5.54.0.tgz#b1dcfe3146f40e79ad719707a44ffcaf101964cd"
-  integrity sha512-i/g5H9EfMP/92jxBFzpAambRk8JN2aV63sUvKkRfjFPuG37ffuuNUl42Z7OJv2MHXABSvNbdrTh3oYWUa+sXzg==
+"@babylonjs/materials@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/materials/-/materials-6.9.0.tgz#02f240cbd9c24cddccd5e78054fb9c98b658f4e3"
+  integrity sha512-hJ6UaIQS4WHvVEnfJ9DKvELMAHdGHFvSFW07uZMlH3V2My0ZVECqPHArYwinC2KqtNDCSYEz0hCYM34B0henIg==
 
-"@babylonjs/serializers@^5.54.0":
-  version "5.54.0"
-  resolved "https://registry.npmmirror.com/@babylonjs/serializers/-/serializers-5.54.0.tgz#c279c99617b2290ac1eea784d8b8e32e035173a5"
-  integrity sha512-ZqF+I1w3WUWati7opyjoFXEJcxGwcsnbCsOhpXQ6e0Ei/4V2mMxzzU2ZIo9DghqidJ5AzqZp+e3E2CNcnXIOAA==
+"@babylonjs/serializers@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.npmmirror.com/@babylonjs/serializers/-/serializers-6.9.0.tgz#0436c54fbe4ac90c26765fac598e7c141af6ca32"
+  integrity sha512-UlECmaoVvBvBeZD2uddZye8Egmkmf+8KHe1TAqWqjlk2JO+LK6wtvCQydYiaFHgSXQqsxKwRGRSWjBcN+bBkyQ==
 
 "@esbuild/android-arm64@0.17.15":
   version "0.17.15"

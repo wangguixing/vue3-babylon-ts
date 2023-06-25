@@ -3,6 +3,7 @@
 ## 必要性与应用方向
 - 企业对web3D可视化技术需求越来越多
 - 数字孪生、智慧城市、智慧工厂等3D展示等场景都有用到web3D可视化技术
+- chrome-113开始支持webGpu，3D网站的发展趋势
 
 ## 代码中的图形学
 1. [OpenGL](https://www.opengl.org/)被称为Open Graphics Library。它被称为跨语言和平台应用程序编程接口，用于渲染2D和3D矢量图形，运行于嵌入式设备。
@@ -15,7 +16,7 @@
 - [babylon](https://www.babylonjs.com/) --微软Babylon.js 5.0 支持WebGPU
 - cesium -- 地理数据gis
 
-选择babylon，精彩实现站点参考[cool360数字展馆](http://www.cool360.com/)
+选择babylon，精彩实现站点参考[cool360数字展馆](https://webvr.walkclass.com/#/)
 
 ## 依赖库选择与安装
     ```
@@ -38,3 +39,13 @@
 - Texure: 纹理 在Material基础上画画
 - Vector: 向量坐标系
 - color: 着色
+
+## babylon 6.0新特性
+#### Babylon.js 6.0 带来了性能改进、渲染增强和一系列新功能。
+- 新物理插件--新 WASM 插件和对 Babylon.js Physics API 的全面改造，高达 20 倍的速度提升
+- 性能优先模式--三种可选模式（后兼容模式、中间模式、激进模式），最高可获得50 倍的渲染和性能提升
+- 流体渲染
+- 改进的屏幕空间反射
+- 纹理贴花--新的纹理贴花功能，扩展了使用材质的灵活性
+- glTF 扩展支持
+- Figma设计直接导出到Babylon.js 场景中
